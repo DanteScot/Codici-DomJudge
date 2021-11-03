@@ -1,3 +1,3 @@
-# Universita
+# DomJudge
 
-Tutto ciò che riguarda informatica all'università
+Tutti i codici scritti per Fondamenti di Informatica 1 sulla piattaforma DomJudge
