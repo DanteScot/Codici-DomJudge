@@ -20,7 +20,7 @@ if primi:
 if primi!=True:
     print("non entrambi primi",end="")
 else:
-    if abs(a-b)==2:
-        print("gemelli",end="")
-    else:
+    if abs(a-b)!=2:
         print("non gemelli",end="")
+    else:
+        print("gemelli",end="")
