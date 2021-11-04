@@ -2,7 +2,7 @@ out="NESSUNA VOCALE"
 vocali="aeiou"
 while True:
     x=input()
-    if x==".":
+    if x=="*":
         break
     
     trovato=False
