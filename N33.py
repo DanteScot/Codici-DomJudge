@@ -1,4 +1,5 @@
 import random
+from random import randint
 
 pl=0
 pc=0
@@ -8,7 +9,6 @@ random.seed(0)
 while True:
     while True:
         giocoPL=int(input("Inserisci la giocata del primo giocatore (1: sasso, 2: carta, 3: forbice):"))
-        print(giocoPL)
         if giocoPL==1 or giocoPL==2 or giocoPL==3:
             break
     
@@ -20,7 +20,7 @@ while True:
         print("hai giocato forbice")
 
 
-    giocoPC=random.randint(1,3)
+    giocoPC=randint(1,3)
     if giocoPC==1:
         print("il PC ha giocato sasso")
     elif giocoPC==2:
@@ -37,7 +37,7 @@ while True:
         print("Vince il PC:")
         pc+=1
 
-    print(pl,"-",pc)
+    print(pl,"-",pc,sep="")
 
     if pl==3:
         print("Hai vinto la sfida!")
